@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Martian+Mono&family=Montserrat:wght@300&family=Nunito:wght@300;400&family=Open+Sans:wght@300;400&family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+  background-color: #f4f8fc;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #5f5e60;
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #5386ba;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+h2, h3 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+h2 {
+  color: #768693;
+}
+
+h3 {
+  color: #B28880ff;
+}
+
+p {
+  line-height: 25px;
+  padding: 10px 10px 0 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+a {
+  text-decoration: none;
+  color: #58A3F1;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #5B694E;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 16px;
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  border: .5px solid lightgrey;
+}
+/*
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  /* .container {
+    width: 700px;
+  }
+} */
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
